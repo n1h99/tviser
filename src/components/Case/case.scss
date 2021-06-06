@@ -1,0 +1,21 @@
+.case {
+  max-width: 1200px;
+  margin: 172px auto 0;
+  &__title {
+    font-family: 'Commissioner';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 52px;
+    line-height: 64px;
+    margin-bottom: 76px;
+    color: #000000;
+  }
+  &__footer {
+    display: flex;
+  }
+  &__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+}

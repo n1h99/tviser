@@ -1,0 +1,23 @@
+@import "../../style/mixin";
+
+.task {
+  background-color: #F2F2F2;
+
+  &__btn {
+    max-width: 350px;
+    padding: 24px;
+  }
+  &__inner {
+    padding: 100px 0;
+    margin: 0 auto;
+    max-width: 1024px;
+  }
+  &__title {
+    @include Commissioner(44px, 55px, normal, 600, #000000);
+    margin-bottom: 29px;
+  }
+  &__subtitle {
+    @include Commissioner(26px, 32px, normal, normal, #000000);
+    margin-bottom: 59px;
+  }
+}

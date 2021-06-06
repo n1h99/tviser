@@ -1,0 +1,16 @@
+@import "../../../style/mixin";
+
+.cases {
+  max-width: 260px;
+  height: 100%;
+  margin-bottom: 76px;
+  margin-right: 40px;
+
+  &__title {
+    @include Commissioner(26px, 32px, normal, 500, #000000);
+    margin: 25px 0 20px;
+  }
+  &__subtitle {
+    @include Commissioner(19px, 31px, normal, normal, #000000);
+  }
+}

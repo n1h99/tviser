@@ -1,0 +1,8 @@
+@mixin Commissioner($font-size, $line-height, $letter-spacing, $font-weight, $color) {
+  font-family: 'Commissioner', sans-serif;
+  font-weight: $font-weight;
+  font-size: $font-size;
+  line-height: $line-height;
+  letter-spacing: $letter-spacing;
+  color: $color;
+}

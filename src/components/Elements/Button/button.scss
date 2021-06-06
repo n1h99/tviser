@@ -1,0 +1,10 @@
+@import "../../../style/mixin";
+.btn {
+  @include Commissioner(20px, 24px, normal, 600, #FFFFFF);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,32 @@
+@import "../../../style/mixin";
+
+ul {
+  align-self: flex-start;
+  margin: 0;
+  position: absolute;
+  top: 65px;
+  padding: 0;
+  right: 25px;
+  width: fit-content;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  position: relative;
+  width: 100%;
+}
+li {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  @include Commissioner(25px, 25px, normal, normal, gray);
+  margin-bottom: 15px;
+  list-style-type: none;
+  justify-content: center;
+}
+
+li:hover {
+  color: #000000;
+}

@@ -1,0 +1,31 @@
+@import "../../style/mixin";
+
+.intro {
+
+  &__inner {
+    margin: 52px auto 0;
+    display: flex;
+    max-width: 1210px;
+  }
+
+  &__left {
+    max-width: 544px;
+    margin-right: 60px;
+    padding-top: 47px;
+  }
+
+  &__title {
+    @include Commissioner(45px, 55px, normal, bold, #303030);
+    margin-bottom: 42px;
+  }
+  &__subtitle {
+    @include Commissioner(22px, 27px, normal, normal, #5C5C5C);
+    margin: 42px 0 48px;
+  }
+
+  &__btn {
+    max-width: 270px;
+    height: 60px;
+    padding: 0 47px;
+  }
+}

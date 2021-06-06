@@ -1,0 +1,11 @@
+.video {
+  margin-top: 250px;
+
+  &__inner {
+    max-width: 940px;
+    margin: auto;
+  }
+  iframe:first-of-type {
+    margin-bottom: 40px;
+  }
+}
